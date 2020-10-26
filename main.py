@@ -1,6 +1,6 @@
 import string
 
-from nltk.sentiment import SentimentIntensityAnalyzer
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from xlwt import Workbook
 import matplotlib.pyplot as plot
 from nltk.tokenize import word_tokenize
@@ -99,10 +99,10 @@ x_axis = ['Positive Reviews', 'Neutral Reviews', 'Negative Reviews']
 y_axis = [positive_counter, neutral_counter, negative_counter]
 plot.xlabel('Sentiment type')
 plot.ylabel('Count')
-plot.title('Overall Sentimental Analysis of IPhoneSE')
+plot.title('Overall Sentimental Analysis of Dining at Yomenya Goemon')
 plot.bar(x_axis, y_axis)
 plot.savefig('sentiment_analysis.jpg')
 plot.show()
 
-wb.save('sentiment_Categorisation.xls')
+wb.save('sentiment_Categorisation2.xls')
 f.close()
