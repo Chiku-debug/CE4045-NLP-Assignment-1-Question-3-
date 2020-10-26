@@ -61,7 +61,7 @@ while True:
         break
     # convert all characters to lower-case
     lower_case = line.lower()
-    # remove punctuation character
+    # remove punctuation characters
     preprocessed_text = punctuation_removal(lower_case)
     # split sentence into words
     token_words = word_tokenize(preprocessed_text, "english")
