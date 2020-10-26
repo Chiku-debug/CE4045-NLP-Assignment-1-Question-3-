@@ -104,5 +104,5 @@ plot.bar(x_axis, y_axis)
 plot.savefig('sentiment_analysis.jpg')
 plot.show()
 
-wb.save('sentiment_Categorisation2.xls')
+wb.save('sentiment_Categorisation1.xls')
 f.close()
