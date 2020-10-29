@@ -13,12 +13,21 @@ $ cd source_code
 All the datasets are located in the `source_code/dataset`.
 
 Contents:
-* domain_1_patent/
-* domain_2_financial_management/
-* domain_3_computer_science/
-* domain_1_sentences.txt
-* domain_2_sentences.txt
-* domain_3_sentences.txt
+
+* Task 1:
+  * domain_1_patent/
+  * domain_2_financial_management/
+  * domain_3_computer_science/
+  * domain_1_sentences.txt
+  * domain_2_sentences.txt
+  * domain_3_sentences.txt
+  
+* Task 2:
+  * reviews4_goemon.txt
+  * reviews4_goemon_noun_adj_pairs_manual.csv
+  
+* Task 3:
+  * review.txt
 
 ## Results directory
 All the results of all tasks are located in `source_code/results`.
