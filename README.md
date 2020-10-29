@@ -20,6 +20,9 @@ Contents:
 * domain_2_sentences.txt
 * domain_3_sentences.txt
 
+## Results directory
+All the results of all tasks are located in `source_code/results`.
+
 ## Installation Guide
 Make sure you have the libraries below installed in your machine.
 * matplotlib==3.0.3
