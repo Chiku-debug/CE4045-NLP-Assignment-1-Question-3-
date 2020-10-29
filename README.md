@@ -61,6 +61,8 @@ Replace the `dataset name` with one of the listed tasks:
 * csai
 * financial
 * all
+
+Note: Tokenization and Stemming: patent, csai, financial. Sentence Segmentation: all. POS Tagging: all
 ```
 $ python main.py --analysis [dataset name]
 ```
@@ -78,3 +80,6 @@ Execute the following command in command prompt to run this task.
 ```
 $ python main.py --sentiment True
 ```
+
+## Applications Output Log
+All the outputs are located in `source_code/results`. The format of output files is [task name]_output.txt.
