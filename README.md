@@ -56,13 +56,13 @@ Download the required nltk models. Run below commands in python shell.
 
 Execute the following command in command prompt to run this task.
 
-Replace the `dataset name` with one of the listed tasks:
+Replace the `dataset name` with one of the listed datasets:
 * patent
 * csai
 * financial
 * all
 
-Note: 
+Note on datasets for each task: 
 
 Tokenization and Stemming: patent, csai, financial. 
 
