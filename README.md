@@ -73,11 +73,9 @@ Replace the `dataset name` with one of the listed datasets:
 
 Note on datasets for each task: 
 
-Tokenization and Stemming: patent, csai, financial. 
-
-Sentence Segmentation: all. 
-
-POS Tagging: all
+* Tokenization and Stemming: patent, csai, financial. 
+* Sentence Segmentation: all. 
+* POS Tagging: all
 ```
 $ python main.py --analysis [dataset name]
 ```
