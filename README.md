@@ -26,6 +26,7 @@ Make sure you have the libraries below installed in your machine.
 * nltk==3.4
 * beautifulsoup4==4.7.1
 * requests==2.21.0
+* xlwt==1.3.0
 
 Use below command to install the required library.
 ```
@@ -55,3 +56,9 @@ Replace the `dataset name` with one of the listed tasks:
 $ python main.py --analysis [dataset name]
 ```
 
+**3. Sentiment Analysis Application**
+
+Execute the following command in command prompt to run this task.
+```
+$ python main.py --sentiment True
+```
