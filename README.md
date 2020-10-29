@@ -94,5 +94,5 @@ Execute the following command in command prompt to run this task.
 $ python main.py --sentiment True
 ```
 
-## Applications Output Log
+## Tasks Output Log
 All the outputs are located in `source_code/results`. The format of output files is [task name]_output.txt.
