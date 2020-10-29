@@ -51,10 +51,11 @@ sheet1 = wb.add_sheet('Sentiment Categorisation')
 sheet1.write(0, 0, 'Positive Sentiment')
 sheet1.write(0, 1, 'Neutral Sentiment')
 sheet1.write(0, 2, 'Negative Sentiment')
-sheet1.write(0, 3, 'Processed Reviews')
+
 
 
 count = 1
+# reading individual reviews from the dataset
 while True:
     line = f.readline()
     if not line:
@@ -70,10 +71,9 @@ while True:
     for word in token_words:
         if word not in stopwords.words('english'):
             remove_stopwords.append(word)
-    # removing punctuations from stopwords
+    # converting tuple to a string for sentiment analysis
     final_string = converting_list_to_string(remove_stopwords)
     # write to excel sheet
-    sheet1.write(count, 3, final_string)
     print(final_string)
     old_positive_counter = positive_counter
     old_neutral_counter = neutral_counter
@@ -99,7 +99,7 @@ x_axis = ['Positive Reviews', 'Neutral Reviews', 'Negative Reviews']
 y_axis = [positive_counter, neutral_counter, negative_counter]
 plot.xlabel('Sentiment type')
 plot.ylabel('Count')
-plot.title('Overall Sentimental Analysis of Dining at Yomenya Goemon')
+plot.title('Overall Sentiment Analysis of Dining at Yomenya Goemon')
 plot.bar(x_axis, y_axis)
 plot.savefig('sentiment_analysis.jpg')
 plot.show()
