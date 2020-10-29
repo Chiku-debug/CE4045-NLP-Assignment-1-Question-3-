@@ -62,7 +62,13 @@ Replace the `dataset name` with one of the listed tasks:
 * financial
 * all
 
-Note: Tokenization and Stemming: patent, csai, financial. Sentence Segmentation: all. POS Tagging: all
+Note: 
+
+Tokenization and Stemming: patent, csai, financial. 
+
+Sentence Segmentation: all. 
+
+POS Tagging: all
 ```
 $ python main.py --analysis [dataset name]
 ```
