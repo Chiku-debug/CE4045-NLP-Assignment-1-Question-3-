@@ -65,6 +65,13 @@ Replace the `dataset name` with one of the listed tasks:
 $ python main.py --analysis [dataset name]
 ```
 
+**2. Development of <Noun - Adjective> Pair Ranker**
+  
+Execute the following command in command prompt to run this task.
+```
+$ python main.py --pair True
+```
+
 **3. Sentiment Analysis Application**
 
 Execute the following command in command prompt to run this task.
