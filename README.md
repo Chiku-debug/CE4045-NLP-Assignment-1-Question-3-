@@ -1,4 +1,4 @@
-# CE4045-NLP-Assignment-1
+# CZ/CE4045-NLP-Assignment-1
 
 ## Running Directory
 The source_code directory has all python scripts for the assignment. Change to the directory to run the code.
