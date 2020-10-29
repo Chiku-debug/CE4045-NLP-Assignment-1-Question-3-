@@ -30,10 +30,16 @@ Make sure you have the libraries below installed in your machine.
 * beautifulsoup4==4.7.1
 * requests==2.21.0
 * xlwt==1.3.0
+* spacy==2.3.2
 
 Use below command to install the required library.
 ```
 $ pip install [library name]
+```
+
+Download the required spacy model. Run below commands in terminal.
+```
+$ python -m spacy download en_core_web_sm
 ```
 
 Download the required nltk models. Run below commands in python shell.
