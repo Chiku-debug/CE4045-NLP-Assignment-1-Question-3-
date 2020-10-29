@@ -38,6 +38,7 @@ Download the required nltk models. Run below commands in python shell.
 >>> nltk.download('punkt')
 >>> nltk.download('stopwords')
 >>> nltk.download('averaged_perceptron_tagger')
+>>> nltk.download('vader_lexicon')
 ```
 
 ## Usage Guide
